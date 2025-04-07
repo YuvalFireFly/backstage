@@ -1,5 +1,34 @@
 # @backstage/plugin-catalog-react
 
+## 1.17.0-next.2
+
+### Minor Changes
+
+- 61d350f: **BREAKING ALPHA**: `CatalogFilterBlueprint`, used in the new frontend system, is now exported under plugin-catalog-react instead of plugin-catalog.
+
+  ```diff
+  + import { CatalogFilterBlueprint } from '@backstage/plugin-catalog-react/alpha';
+  - import { CatalogFilterBlueprint } from '@backstage/plugin-catalog/alpha';
+  ```
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/catalog-client@1.9.1
+  - @backstage/catalog-model@1.7.3
+  - @backstage/core-compat-api@0.4.1-next.2
+  - @backstage/core-components@0.17.1-next.0
+  - @backstage/core-plugin-api@1.10.5
+  - @backstage/errors@1.2.7
+  - @backstage/frontend-plugin-api@0.10.1-next.0
+  - @backstage/frontend-test-utils@0.3.1-next.0
+  - @backstage/integration-react@1.2.6-next.0
+  - @backstage/types@1.2.1
+  - @backstage/version-bridge@1.0.11
+  - @backstage/plugin-catalog-common@1.1.3
+  - @backstage/plugin-permission-common@0.8.4
+  - @backstage/plugin-permission-react@0.4.32
+
 ## 1.16.1-next.1
 
 ### Patch Changes
